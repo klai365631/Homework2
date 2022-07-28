@@ -1,7 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("пишем дз!!!");
-        System.out.println("делаем коммит");
+       //задание 1
+        int dog=1;
+        byte appl=3;
+        short cat=4;
+        long snake=3;
+        float bus=3.5f;
+        double suggart=3.7;
+        boolean dogIsAdult=dog>10;
+        char bar=35;
+        System.out.println(dogIsAdult);
+
 
 
     }
