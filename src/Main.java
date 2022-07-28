@@ -53,15 +53,25 @@ public class Main {
 
         //Задача 4
         int weight=7;
-        double onecCase=0.25;
-        double twoCase=0.5;
-        double oneCaseDays=weight/onecCase;
-        double twoCaseDays=weight/twoCase;
-        System.out.println("первый варинат " +oneCaseDays+ " дней");
-        System.out.println("второй варинат "+twoCaseDays+ " дней");
+        int gramsInKg=1000;
+        int wainGramms=weight*gramsInKg;
 
-        double averageValue=(oneCaseDays+twoCaseDays)/2;
-        System.out.println("в среднем понадобится "+averageValue+ " день");
+        int onecCase=250;
+        int twoCase=500;
+
+        int minDais=wainGramms/onecCase;
+        int maxDais=wainGramms/twoCase;
+
+        int avgDais=(minDais+maxDais)/2;
+
+
+
+        System.out.println("min: " +minDais);
+        System.out.println("max: " +maxDais);
+        System.out.println("avg: " +avgDais);
+
+
+
 
         //Задача 5
         int masha=67760;
