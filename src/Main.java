@@ -7,7 +7,7 @@ public class Main {
         int dog=1;
         byte appl=3;
         short cat=4;
-        long snake=3l;
+        long snake=3L;
         float bus=3.5f;
         double suggart=3.7;
         boolean dogIsAdult=dog>10;
